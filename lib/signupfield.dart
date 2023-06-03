@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:virtual_courier/profile.dart';
 //import 'package:virtual_courier/screen/map1.dart';
 
 class SignUpField extends StatefulWidget {
@@ -302,7 +303,13 @@ class _SignUpFieldState extends State<SignUpField> {
             width: 300,
             height: 45,
             child: ElevatedButton(
-              onPressed: _signup,
+              onPressed: () {
+                Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const Profile()),
+                    );
+              },
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color.fromARGB(255, 250, 212, 24),
                 foregroundColor: Colors.black,
