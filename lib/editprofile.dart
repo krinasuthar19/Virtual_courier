@@ -155,7 +155,7 @@ class _EditProfileState extends State<EditProfile> {
                 children: [
                   Container(width: 30),
                   Container(
-                    width: 330,
+                    width: 300,
                     height: 50,
                     alignment: Alignment.bottomLeft,
                     child: TextField(
@@ -196,7 +196,7 @@ class _EditProfileState extends State<EditProfile> {
                 children: [
                   Container(width: 30),
                   Container(
-                    width: 330,
+                    width: 300,
                     height: 50,
                     alignment: Alignment.bottomLeft,
                     child: TextField(
@@ -237,7 +237,7 @@ class _EditProfileState extends State<EditProfile> {
                 children: [
                   Container(width: 30),
                   Container(
-                    width: 330,
+                    width: 300,
                     height: 50,
                     alignment: Alignment.bottomLeft,
                     child: TextField(
@@ -266,7 +266,7 @@ class _EditProfileState extends State<EditProfile> {
                 children: [
                   Container(width: 30),
                   SizedBox(
-                    width: 330,
+                    width: 300,
                     height: 50,
                   child: ElevatedButton(
                     onPressed: _signup,
@@ -277,7 +277,7 @@ class _EditProfileState extends State<EditProfile> {
                           borderRadius: BorderRadius.circular(30.0)),
                     ),
                     child: const Text(
-                      "Submit",
+                      "Edit Profile",
                       style: TextStyle(fontSize: 15),
                     ),
                   ),

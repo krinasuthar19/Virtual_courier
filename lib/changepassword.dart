@@ -154,7 +154,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                 children: [
                   Container(width: 30),
                   Container(
-                    width: 330,
+                    width: 300,
                     height: 50,
                     alignment: Alignment.bottomLeft,
                     child: TextField(
@@ -195,7 +195,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                 children: [
                   Container(width: 30),
                   Container(
-                    width: 330,
+                    width: 300,
                     height: 50,
                     alignment: Alignment.bottomLeft,
                     child: TextField(
@@ -236,7 +236,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                 children: [
                   Container(width: 30),
                   Container(
-                    width: 330,
+                    width: 300,
                     height: 50,
                     alignment: Alignment.bottomLeft,
                     child: TextField(
@@ -265,7 +265,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                 children: [
                   Container(width: 30),
                   SizedBox(
-                    width: 330,
+                    width: 300,
                     height: 50,
                   child: ElevatedButton(
                     onPressed: _signup,
@@ -276,7 +276,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                           borderRadius: BorderRadius.circular(30.0)),
                     ),
                     child: const Text(
-                      "Submit",
+                      "Change Password",
                       style: TextStyle(fontSize: 15),
                     ),
                   ),

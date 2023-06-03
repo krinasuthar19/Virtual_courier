@@ -167,7 +167,7 @@ class _ChangeLanguageState extends State<ChangeLanguage> {
                 children: [
                   Container(width: 30),
                   SizedBox(
-                    width: 330,
+                    width: 300,
                     height: 50,
                     child: ElevatedButton(
                       onPressed: () {},
@@ -179,7 +179,7 @@ class _ChangeLanguageState extends State<ChangeLanguage> {
                             borderRadius: BorderRadius.circular(30.0)),
                       ),
                       child: const Text(
-                        "Submit",
+                        "Change Language",
                         style: TextStyle(fontSize: 15),
                       ),
                     ),
