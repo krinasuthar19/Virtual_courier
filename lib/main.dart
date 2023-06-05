@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:virtual_courier/firstscreen.dart';
 
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,10 +19,10 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        fontFamily: 'VarelaRound',
+        fontFamily: 'VarelaRound-Regular',
         scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
       ),
-      home: const FirstScreen(),
+      home: FirstScreen(),
     );
   }
 }

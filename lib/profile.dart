@@ -103,9 +103,10 @@ class _ProfileState extends State<Profile> {
               ),
               Container(height: 30),
               SizedBox(height: 100, child: Image.asset("images/profile.png")),
+              Container(height: 10),
               const Divider(
                 color: Colors.black,
-                height: 25,
+                height: 5,
                 thickness: 1,
                 indent: 30,
                 endIndent: 30,
@@ -115,11 +116,11 @@ class _ProfileState extends State<Profile> {
                 children: [
                   Container(width: 40),
                   const SizedBox(
-                    height: 40,
+                    height: 30,
                     child: Text(
                       "Name",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
@@ -128,7 +129,7 @@ class _ProfileState extends State<Profile> {
                 children: [
                   Container(width: 40),
                   const SizedBox(
-                    height: 40,
+                    height: 30,
                     child: Text(
                       "Edward Mwongera",
                       style: TextStyle(
@@ -141,7 +142,7 @@ class _ProfileState extends State<Profile> {
               ),
               const Divider(
                 color: Colors.black,
-                height: 10,
+                height: 5,
                 thickness: 1,
                 indent: 30,
                 endIndent: 30,
@@ -151,11 +152,11 @@ class _ProfileState extends State<Profile> {
                 children: [
                   Container(width: 40),
                   const SizedBox(
-                    height: 40,
+                    height: 30,
                     child: Text(
                       "Email Address",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
@@ -164,7 +165,7 @@ class _ProfileState extends State<Profile> {
                 children: [
                   Container(width: 40),
                   const SizedBox(
-                    height: 40,
+                    height: 30,
                     child: Text(
                       "mwongeraedward@gmail.com",
                       style: TextStyle(
@@ -177,7 +178,7 @@ class _ProfileState extends State<Profile> {
               ),
               const Divider(
                 color: Colors.black,
-                height: 10,
+                height: 5,
                 thickness: 1,
                 indent: 30,
                 endIndent: 30,
@@ -187,11 +188,11 @@ class _ProfileState extends State<Profile> {
                 children: [
                   Container(width: 40),
                   const SizedBox(
-                    height: 40,
+                    height: 30,
                     child: Text(
                       "Phone Number",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
@@ -200,7 +201,7 @@ class _ProfileState extends State<Profile> {
                 children: [
                   Container(width: 40),
                   const SizedBox(
-                    height: 40,
+                    height: 30,
                     child: Text(
                       "0702 4567 45867",
                       style: TextStyle(

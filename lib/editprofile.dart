@@ -125,14 +125,14 @@ class _EditProfileState extends State<EditProfile> {
                       );
                     }
                   }),
-                  Container(width: 30),
+                  Container(width: 20),
                 ],
               ),
               Container(height: 30),
               SizedBox(height: 100, child: Image.asset("images/profile.png")),
               const Divider(
                 color: Colors.black,
-                height: 25,
+                height: 15,
                 thickness: 1,
                 indent: 30,
                 endIndent: 30,
@@ -146,14 +146,16 @@ class _EditProfileState extends State<EditProfile> {
                     child: Text(
                       "Name",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
+                 
                   Container(
                     width: 300,
                     height: 50,
@@ -187,14 +189,16 @@ class _EditProfileState extends State<EditProfile> {
                     child: Text(
                       "Email Address",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
+               
                   Container(
                     width: 300,
                     height: 50,
@@ -228,14 +232,16 @@ class _EditProfileState extends State<EditProfile> {
                     child: Text(
                       "Phone Number",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
+                 
                   Container(
                     width: 300,
                     height: 50,
@@ -263,8 +269,10 @@ class _EditProfileState extends State<EditProfile> {
               ),
               Container(height: 100),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
+                  
                   SizedBox(
                     width: 300,
                     height: 50,

@@ -124,7 +124,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                       );
                     }
                   }),
-                  Container(width: 30),
+                  Container(width: 20),
                 ],
               ),
               Container(height: 30),
@@ -145,14 +145,16 @@ class _ChangePasswordState extends State<ChangePassword> {
                     child: Text(
                       "Old Password",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
+                  
                   Container(
                     width: 300,
                     height: 50,
@@ -186,14 +188,16 @@ class _ChangePasswordState extends State<ChangePassword> {
                     child: Text(
                       "New Password",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
+                  
                   Container(
                     width: 300,
                     height: 50,
@@ -227,14 +231,16 @@ class _ChangePasswordState extends State<ChangePassword> {
                     child: Text(
                       "Confirm Password",
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
+                  
                   Container(
                     width: 300,
                     height: 50,
@@ -262,8 +268,9 @@ class _ChangePasswordState extends State<ChangePassword> {
               ),
               Container(height: 100),
               Row(
+                 mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
                   SizedBox(
                     width: 300,
                     height: 50,

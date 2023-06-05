@@ -106,13 +106,14 @@ class _ChangeLanguageState extends State<ChangeLanguage> {
                       );
                     }
                   }),
-                  Container(width: 30),
+                  Container(width: 20),
                 ],
               ),
               Container(
                 height: 30,
               ),
               Row(
+                
                 children: [
                   Container(
                     width: 40,
@@ -127,7 +128,7 @@ class _ChangeLanguageState extends State<ChangeLanguage> {
                 height: 20,
               ),
               Container(
-                width: 330,
+                width: 300,
                 height: 50,
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 239, 238, 238),
@@ -164,8 +165,9 @@ class _ChangeLanguageState extends State<ChangeLanguage> {
               ),
               Container(height: 450),
               Row(
+                 mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(width: 30),
                   SizedBox(
                     width: 300,
                     height: 50,
